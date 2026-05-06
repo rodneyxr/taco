@@ -30,7 +30,6 @@ archives:
       {{ .ProjectName }}_
       {{- .Os }}_
       {{- .Arch }}
-      {{- .ArtifactExt }}
 
 checksum:
   name_template: checksums.txt
