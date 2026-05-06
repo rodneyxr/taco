@@ -4,10 +4,10 @@ Create Slack messages for [HeyTaco](https://heytaco.com/) so you can rotate thro
 
 ## Quickstart
 
-Install from source:
+Install the latest release:
 
 ```sh
-go install github.com/rodneyxr/taco@latest
+curl -fsSL https://raw.githubusercontent.com/rodneyxr/taco/main/install.sh | sh
 ```
 
 Create `taco.yaml` in your current directory, or `~/.taco.yaml`:
@@ -75,4 +75,4 @@ taco --template '{{ team "platform" }} {{ .Message }} {{ .Emoji }}' --message "s
 
 ## Releases
 
-This repo uses conventional commits, Release Please for semantic version tags, and GoReleaser for binaries. Merging conventional commits to `main` creates releases for `amd64` and `arm64`.
+This repo uses conventional commits, Release Please for semantic version tags, and GoReleaser for binaries. Merging conventional commits to `main` creates raw release binaries for Linux, macOS, and Windows on `amd64` and `arm64`.
