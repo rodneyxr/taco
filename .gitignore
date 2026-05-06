@@ -27,6 +27,15 @@ go.work.sum
 # env file
 .env
 
+# Local taco config and generated state
+taco.yaml
+.taco-state.yaml
+
+# Local build/test caches
+/.cache/
+/bin/
+/dist/
+
 # Editor/IDE
 # .idea/
 # .vscode/

@@ -1,0 +1,8 @@
+tacos: 5
+teams:
+  default:
+    - alice
+    - bob
+    - charles
+    - don
+    - eric
